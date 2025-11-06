@@ -1,0 +1,5 @@
+[INFO] Train files: total=90 (syn=60 + real*15=30) | unique=62 | Val files: 5 | Voxel=0.1 m
+/home/erdem/stpls3d-lite/train.py:224: RuntimeWarning: Mean of empty slice.
+  XYZ = XYZ - XYZ.mean(axis=0, keepdims=True)
+/home/erdem/miniconda3/envs/stpls3d-lite/lib/python3.11/site-packages/numpy/_core/_methods.py:136: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(

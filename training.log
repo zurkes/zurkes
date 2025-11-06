@@ -1,0 +1,140 @@
+[INFO] Train files: total=93 (syn=63 + real*10=30) | unique=66 | Val files: 5 | Voxel=0.1 m
+  Ground      : 33.56%
+  Vegetation  : 18.38%
+  Road        : 10.04%
+  Vehicle     :  2.92%
+  Building    : 22.40%
+  Clutter     :  1.11%
+  Ground      : 24.55%
+  Vegetation  : 24.45%
+  Road        :  0.02%
+  Vehicle     :  0.00%
+  Building    :  6.24%
+  Clutter     :  0.00%
+[E01] [826.3s | avg826.3s | eta~537.1m | lr=5.00e-05] tr_loss=13.7199 tr_acc=36.41% | val_loss=5.2176 val_acc=28.72% | val/miou=9.21% | files[0:15] real_in_subset=4
+[CKPT] saved: /home/erdem/stpls3d-lite/checkpoints/randla_like_e01_miou9.21.pt
+  Ground      : 42.06%
+  Vegetation  : 21.92%
+  Road        : 14.45%
+  Vehicle     :  5.24%
+  Building    : 35.05%
+  Clutter     :  1.56%
+  Ground      :  0.05%
+  Vegetation  : 18.63%
+  Road        :  1.59%
+  Vehicle     :  3.59%
+  Building    :  8.43%
+  Clutter     :  0.11%
+[E02] [776.9s | avg801.6s | eta~507.7m | lr=1.00e-04] tr_loss=3.3712 tr_acc=46.43% | val_loss=4.4080 val_acc=13.35% | val/miou=5.40% | files[17:32] real_in_subset=7
+  Ground      : 51.66%
+  Vegetation  : 38.42%
+  Road        : 11.46%
+  Vehicle     :  2.50%
+  Building    : 34.61%
+  Clutter     :  2.29%
+  Ground      : 15.63%
+  Vegetation  : 23.57%
+  Road        :  0.00%
+  Vehicle     :  0.01%
+  Building    :  6.49%
+  Clutter     :  0.05%
+[E03] [814.5s | avg805.9s | eta~497.0m | lr=1.00e-04] tr_loss=1.5461 tr_acc=55.01% | val_loss=4.7140 val_acc=25.89% | val/miou=7.63% | files[34:49] real_in_subset=2
+  Ground      : 51.55%
+  Vegetation  : 43.85%
+  Road        : 20.37%
+  Vehicle     :  7.28%
+  Building    : 35.96%
+  Clutter     :  4.78%
+  Ground      :  7.69%
+  Vegetation  : 19.80%
+  Road        : 10.91%
+  Vehicle     :  1.45%
+  Building    :  8.74%
+  Clutter     :  0.06%
+[E04] [1035.8s | avg863.4s | eta~518.0m | lr=9.98e-05] tr_loss=1.3364 tr_acc=56.93% | val_loss=2.4869 val_acc=19.29% | val/miou=8.11% | files[51:66] real_in_subset=7
+  Ground      : 57.14%
+  Vegetation  : 34.82%
+  Road        : 20.88%
+  Vehicle     :  8.26%
+  Building    : 45.42%
+  Clutter     :  3.60%
+  Ground      :  5.99%
+  Vegetation  : 22.91%
+  Road        :  0.66%
+  Vehicle     :  1.52%
+  Building    : 27.64%
+  Clutter     :  0.01%
+[E05] [935.5s | avg877.8s | eta~512.0m | lr=9.93e-05] tr_loss=1.1176 tr_acc=59.27% | val_loss=2.7295 val_acc=30.15% | val/miou=9.79% | files[68:83] real_in_subset=4
+[CKPT] saved: /home/erdem/stpls3d-lite/checkpoints/randla_like_e05_miou9.79.pt
+  Ground      : 62.79%
+  Vegetation  : 29.03%
+  Road        : 13.68%
+  Vehicle     :  4.82%
+  Building    : 42.03%
+  Clutter     :  7.41%
+  Ground      :  9.46%
+  Vegetation  : 20.69%
+  Road        :  0.00%
+  Vehicle     :  5.46%
+  Building    : 11.71%
+  Clutter     :  0.03%
+[E06] [737.6s | avg854.4s | eta~484.2m | lr=9.85e-05] tr_loss=1.0505 tr_acc=61.92% | val_loss=2.5477 val_acc=21.25% | val/miou=7.89% | files[85:100] real_in_subset=5
+  Ground      : 57.99%
+  Vegetation  : 43.00%
+  Road        : 14.77%
+  Vehicle     :  8.88%
+  Building    : 42.77%
+  Clutter     :  1.11%
+  Ground      :  4.95%
+  Vegetation  : 23.67%
+  Road        :  0.00%
+  Vehicle     :  3.24%
+  Building    :  2.69%
+  Clutter     :  0.00%
+[E07] [720.0s | avg835.2s | eta~459.4m | lr=9.73e-05] tr_loss=1.0373 tr_acc=62.75% | val_loss=2.3003 val_acc=22.40% | val/miou=5.76% | files[9:24] real_in_subset=5
+  Ground      : 56.14%
+  Vegetation  : 46.34%
+  Road        : 20.18%
+  Vehicle     :  8.98%
+  Building    : 41.99%
+  Clutter     :  2.97%
+  Ground      :  7.86%
+  Vegetation  : 18.74%
+  Road        :  0.02%
+  Vehicle     :  0.00%
+  Building    : 16.07%
+  Clutter     :  0.03%
+[E08] [827.5s | avg834.2s | eta~444.9m | lr=9.58e-05] tr_loss=1.0482 tr_acc=61.80% | val_loss=2.6780 val_acc=22.18% | val/miou=7.12% | files[26:41] real_in_subset=5
+  Ground      : 60.62%
+  Vegetation  : 43.07%
+  Road        : 14.47%
+  Vehicle     :  6.24%
+  Building    : 44.41%
+  Clutter     :  3.28%
+  Ground      : 16.33%
+  Vegetation  : 21.72%
+  Road        :  0.00%
+  Vehicle     :  0.00%
+  Building    :  0.02%
+  Clutter     :  0.00%
+[E09] [771.5s | avg827.3s | eta~427.4m | lr=9.40e-05] tr_loss=0.9643 tr_acc=63.69% | val_loss=3.7036 val_acc=22.77% | val/miou=6.35% | files[43:58] real_in_subset=4
+  Ground      : 54.41%
+  Vegetation  : 50.98%
+  Road        : 27.64%
+  Vehicle     : 17.45%
+  Building    : 40.80%
+  Clutter     :  4.28%
+  Ground      : 21.47%
+  Vegetation  : 17.99%
+  Road        :  0.00%
+  Vehicle     :  0.00%
+  Building    : 24.92%
+  Clutter     :  0.00%
+[E10] [1060.6s | avg850.6s | eta~425.3m | lr=9.19e-05] tr_loss=1.0370 tr_acc=62.32% | val_loss=2.3229 val_acc=30.16% | val/miou=10.73% | files[60:75] real_in_subset=6
+[CKPT] saved: /home/erdem/stpls3d-lite/checkpoints/randla_like_e10_miou10.73.pt
+  Ground      : 59.68%
+  Vegetation  : 27.00%
+  Road        : 13.59%
+  Vehicle     :  0.30%
+  Building    : 42.56%
+  Clutter     :  4.03%

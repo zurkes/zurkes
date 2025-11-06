@@ -1,0 +1,51 @@
+{
+  "selected_classes": ["Ground","Vegetation","Road","Vehicle","Building","Clutter"],
+
+  "id_to_name": {
+    "0": "Ground",
+    "1": "Building",
+    "2": "LowVegetation",
+    "3": "MediumVegetation",
+    "4": "HighVegetation",
+    "5": "Vehicle",
+    "6": "Truck",
+    "7": "Aircraft",
+    "8": "MilitaryVehicle",
+    "9": "Bike",
+    "10": "Motorcycle",
+    "11": "LightPole",
+    "12": "StreetSign",
+    "13": "Clutter",
+    "14": "Fence",
+    "15": "Road",
+    "17": "Windows",
+    "18": "Dirt",
+    "19": "Grass"
+  },
+
+  "merge_source_ids": {
+    "stpls3d": {
+      "Ground": [0, 18, 19],
+      "Vegetation": [2, 3, 4],
+      "Vehicle": [5, 6],
+      "Road": [15],
+      "Building": [1],
+      "Clutter": [13]
+    },
+    "sensaturban": {
+      "Ground": [0, 5, 10],
+      "Vegetation": [1],
+      "Road": [7],
+      "Vehicle": [9],
+      "Building": [2],
+      "Clutter": [3, 4, 6, 8]
+    }
+  },
+
+  "ignore_ids": {
+    "stpls3d": [7, 8, 9, 10, 11, 12, 14, 17],
+    "sensaturban": [11, 12]
+  },
+
+  "notes": "Dataset-bilinçli mapping: STPLS3D ve SensatUrban ham sınıf ID'leri 6 sınıflı ortak şemaya indirgenir. SensatUrban Bike/Water ignore edilir."
+}

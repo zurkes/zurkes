@@ -1,0 +1,39 @@
+project:
+  name: stpls3d-lite
+  seed: 42
+
+paths:
+  root: /home/erdem/stpls3d-lite
+  data:
+    train: data/train
+    val: data/val
+  checkpoints: checkpoints
+  logs: logs
+  badlist: datasets/sensaturban/bad_files.txt  # varsa; yoksa silinebilir
+
+model:
+  name: randla_like        # randla_like | tiny_mlp
+  hidden: 128
+  dropout: 0.20
+  amp: true
+
+neighbors:
+  k: 62
+
+dataset:
+  voxel:
+    size_m: 0.10
+  preprocess:
+    mean_center: true
+
+training:
+  epochs: 40
+  lr: 0.0001
+  files_per_epoch: 15
+  file_step: 17
+  min_real_per_epoch: 2
+  real_oversample: 15
+  resume: false
+  warmup_epochs: 2
+  scheduler: cosine
+  max_points_per_file: 500000

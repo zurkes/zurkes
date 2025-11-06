@@ -1,0 +1,129 @@
+(stpls3d-lite) erdem@MIT-ECANUR-NB:~/stpls3d-lite$ ls -R ~/stpls3d-lite
+/home/erdem/stpls3d-lite:
+ 0                    class_mapping.json   datasets                infer.py      small_secs.txt         weights.json
+ _archive             config.yaml          find_unlabeled_ply.py   logs          tools
+ analyze_dataset.py   config1.yaml         gpu_monitor.sh          models        train.py
+ check_labels.py      data                 gpu_usage.log           ops           train_loader_test.py
+ checkpoints          dataset_audit.py    'gpu_usage.log'$'\r\r'   palette.csv   training.log
+
+/home/erdem/stpls3d-lite/_archive:
+20251025-0848  20251025-0850
+
+/home/erdem/stpls3d-lite/_archive/20251025-0848:
+checkpoints_prev  logs_prev
+
+/home/erdem/stpls3d-lite/_archive/20251025-0848/checkpoints_prev:
+tinymlp_e01_acc32.82.pt  tinymlp_e02_acc36.74.pt  tinymlp_e03_acc36.87.pt  tinymlp_e27_acc36.91.pt
+tinymlp_e01_acc36.86.pt  tinymlp_e02_acc36.87.pt  tinymlp_e25_acc36.88.pt  tinymlp_e31_acc36.92.pt
+tinymlp_e01_acc39.68.pt  tinymlp_e02_acc44.74.pt  tinymlp_e26_acc36.90.pt  tinymlp_e34_acc36.93.pt
+
+/home/erdem/stpls3d-lite/_archive/20251025-0848/logs_prev:
+dataset_audit_train.csv   dataset_audit_val.csv   full_train.log  samples_val
+dataset_audit_train.json  dataset_audit_val.json  samples_train
+
+/home/erdem/stpls3d-lite/_archive/20251025-0848/logs_prev/samples_train:
+sample_Building.ply  sample_Clutter.ply  sample_Ground.ply  sample_Road.ply  sample_Vegetation.ply  sample_Vehicle.ply
+
+/home/erdem/stpls3d-lite/_archive/20251025-0848/logs_prev/samples_val:
+sample_Building.ply  sample_Clutter.ply  sample_Ground.ply  sample_Road.ply  sample_Vegetation.ply  sample_Vehicle.ply
+
+/home/erdem/stpls3d-lite/_archive/20251025-0850:
+
+/home/erdem/stpls3d-lite/checkpoints:
+randla_like_e01_miou6.55.pt  randla_like_e02_miou7.72.pt  randla_like_e04_miou15.82.pt  randla_like_e17_miou11.64.pt
+randla_like_e01_miou7.74.pt  randla_like_e03_miou7.91.pt  randla_like_e05_miou9.67.pt   resume.pth
+randla_like_e01_miou9.21.pt  randla_like_e03_miou8.33.pt  randla_like_e06_miou11.53.pt
+
+/home/erdem/stpls3d-lite/data:
+infer  out  sensaturban.backup  stpls3d  test  train  val
+
+/home/erdem/stpls3d-lite/data/infer:
+
+/home/erdem/stpls3d-lite/data/out:
+
+/home/erdem/stpls3d-lite/data/sensaturban.backup:
+birmingham_block_0.ply   birmingham_block_6.ply      cambridge_block_2.ply   cambridge_block_33.ply
+birmingham_block_1.ply   birmingham_block_7.ply      cambridge_block_20.ply  cambridge_block_4.ply
+birmingham_block_10.ply  cambridge_block_10.ply      cambridge_block_21.ply  cambridge_block_6.ply
+birmingham_block_11.ply  cambridge_block_12.ply      cambridge_block_23.ply  cambridge_block_7.ply
+birmingham_block_13.ply  cambridge_block_13-001.ply  cambridge_block_25.ply  cambridge_block_8-018.ply
+birmingham_block_3.ply   cambridge_block_14.ply      cambridge_block_26.ply  cambridge_block_9.ply
+birmingham_block_4.ply   cambridge_block_17.ply      cambridge_block_28.ply
+birmingham_block_5.ply   cambridge_block_19.ply      cambridge_block_32.ply
+
+/home/erdem/stpls3d-lite/data/stpls3d:
+train
+
+/home/erdem/stpls3d-lite/data/stpls3d/train:
+RealWorldData  Synthetic_v1  Synthetic_v2  Synthetic_v3
+
+/home/erdem/stpls3d-lite/data/stpls3d/train/RealWorldData:
+OCCC_points.ply  RA_points.ply  USC_points.ply  WMSC_points.ply
+
+/home/erdem/stpls3d-lite/data/stpls3d/train/Synthetic_v1:
+Austin.ply  Boston.ply     FortWorth.ply   Henderson.ply     Jacksonville.ply  Memphis.ply  SanFrancisco.ply
+Boise.ply   Charlotte.ply  FullerHill.ply  Indianapolis.ply  LosAngeles.ply    Nevada.ply   TownshipofWashington.ply
+
+/home/erdem/stpls3d-lite/data/stpls3d/train/Synthetic_v2:
+10_points_GTv2.ply  24_points_GTv2.ply  2_points_GTv2.ply  7_points_GTv2.ply  b_points_GTv2.ply  g_points_GTv2.ply
+21_points_GTv2.ply  25_points_GTv2.ply  4_points_GTv2.ply  8_points_GTv2.ply  c_points_GTv2.ply  h_points_GTv2.ply
+22_points_GTv2.ply  28_points_GTv2.ply  5_points_GTv2.ply  9_points_GTv2.ply  e_points_GTv2.ply  i_points_GTv2.ply
+23_points_GTv2.ply  29_points_GTv2.ply  6_points_GTv2.ply  a_points_GTv2.ply  f_points_GTv2.ply  j_points_GTv2.ply
+
+/home/erdem/stpls3d-lite/data/stpls3d/train/Synthetic_v3:
+10_points_GTv3.ply  15_points_GTv3.ply  1_points_GTv3.ply   24_points_GTv3.ply  5_points_GTv3.ply
+11_points_GTv3.ply  16_points_GTv3.ply  20_points_GTv3.ply  25_points_GTv3.ply  6_points_GTv3.ply
+12_points_GTv3.ply  17_points_GTv3.ply  21_points_GTv3.ply  2_points_GTv3.ply   7_points_GTv3.ply
+13_points_GTv3.ply  18_points_GTv3.ply  22_points_GTv3.ply  3_points_GTv3.ply   8_points_GTv3.ply
+14_points_GTv3.ply  19_points_GTv3.ply  23_points_GTv3.ply  4_points_GTv3.ply   9_points_GTv3.ply
+
+/home/erdem/stpls3d-lite/data/test:
+birmingham_block_2.ply  cambridge_block_15.ply  cambridge_block_22.ply
+birmingham_block_8.ply  cambridge_block_16.ply  cambridge_block_27.ply
+
+/home/erdem/stpls3d-lite/data/train:
+real  sentetik
+
+/home/erdem/stpls3d-lite/data/train/real:
+stpls3d
+
+/home/erdem/stpls3d-lite/data/train/real/stpls3d:
+OCCC_points.ply  USC_points.ply  WMSC_points.ply
+
+/home/erdem/stpls3d-lite/data/train/sentetik:
+10_points_GTv2.ply  21_points_GTv2.ply  2_points_GTv3.ply  9_points_GTv3.ply  SanFrancisco.ply
+10_points_GTv3.ply  21_points_GTv3.ply  3_points_GTv3.ply  Austin.ply         TownshipofWashington.ply
+11_points_GTv3.ply  22_points_GTv2.ply  4_points_GTv2.ply  Boise.ply          a_points_GTv2.ply
+12_points_GTv3.ply  22_points_GTv3.ply  4_points_GTv3.ply  Boston.ply         b_points_GTv2.ply
+13_points_GTv3.ply  23_points_GTv2.ply  5_points_GTv2.ply  Charlotte.ply      c_points_GTv2.ply
+14_points_GTv3.ply  23_points_GTv3.ply  5_points_GTv3.ply  FortWorth.ply      e_points_GTv2.ply
+15_points_GTv3.ply  24_points_GTv2.ply  6_points_GTv2.ply  FullerHill.ply     f_points_GTv2.ply
+16_points_GTv3.ply  24_points_GTv3.ply  6_points_GTv3.ply  Henderson.ply      g_points_GTv2.ply
+17_points_GTv3.ply  25_points_GTv2.ply  7_points_GTv2.ply  Indianapolis.ply   h_points_GTv2.ply
+18_points_GTv3.ply  25_points_GTv3.ply  7_points_GTv3.ply  Jacksonville.ply   i_points_GTv2.ply
+19_points_GTv3.ply  28_points_GTv2.ply  8_points_GTv2.ply  LosAngeles.ply     j_points_GTv2.ply
+1_points_GTv3.ply   29_points_GTv2.ply  8_points_GTv3.ply  Memphis.ply
+20_points_GTv3.ply  2_points_GTv2.ply   9_points_GTv2.ply  Nevada.ply
+
+/home/erdem/stpls3d-lite/data/val:
+RA_points.ply  birmingham_block_12.ply  birmingham_block_9.ply  cambridge_block_18.ply  cambridge_block_3.ply
+
+/home/erdem/stpls3d-lite/datasets:
+
+/home/erdem/stpls3d-lite/logs:
+bad_ply_train.txt  dataset_audit_train.csv   dataset_audit_val.csv   missing_labels_train.txt  samples_train
+bad_ply_val.txt    dataset_audit_train.json  dataset_audit_val.json  missing_labels_val.txt    samples_val
+
+/home/erdem/stpls3d-lite/logs/samples_train:
+sample_Building.ply  sample_Clutter.ply  sample_Ground.ply  sample_Road.ply  sample_Vegetation.ply  sample_Vehicle.ply
+
+/home/erdem/stpls3d-lite/logs/samples_val:
+sample_Building.ply  sample_Clutter.ply  sample_Ground.ply  sample_Road.ply  sample_Vegetation.ply  sample_Vehicle.ply
+
+/home/erdem/stpls3d-lite/models:
+
+/home/erdem/stpls3d-lite/ops:
+
+/home/erdem/stpls3d-lite/tools:
+count_sensaturban_labels.py
+(stpls3d-lite) erdem@MIT-ECANUR-NB:~/stpls3d-lite$

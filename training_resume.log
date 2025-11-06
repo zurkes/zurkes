@@ -1,0 +1,60 @@
+[INFO] Train files: total=69 (syn=54 + real*15=15) | unique=55 | Val files: 5 | Voxel=0.1 m
+  Ground      : 31.08%
+  Vegetation  : 20.73%
+  Road        :  8.90%
+  Vehicle     :  2.53%
+  Building    : 18.00%
+  Clutter     :  0.54%
+  Ground      : 16.91%
+  Vegetation  : 25.61%
+  Road        :  0.46%
+  Vehicle     :  1.73%
+  Building    : 11.21%
+  Clutter     :  1.04%
+[E01] [1210.5s | avg1210.5s | eta~1291.2m | lr=5.00e-05] tr_loss=15.2452 tr_acc=35.61% | val_loss=11.9439 val_acc=30.04% | val/miou=9.49% | files[0:15] real_in_subset=2
+[CKPT] saved: /home/erdem/stpls3d-lite/checkpoints/randla_like_e01_miou9.49.pt
+  Ground      : 41.34%
+  Vegetation  : 20.79%
+  Road        : 12.09%
+  Vehicle     :  4.20%
+  Building    : 34.38%
+  Clutter     :  0.50%
+  Ground      : 12.31%
+  Vegetation  : 23.29%
+  Road        :  0.97%
+  Vehicle     :  1.45%
+  Building    : 13.66%
+  Clutter     :  0.36%
+[E02] [1183.2s | avg1196.8s | eta~1256.7m | lr=1.00e-04] tr_loss=4.3402 tr_acc=46.56% | val_loss=9.5436 val_acc=28.69% | val/miou=8.67% | files[25:40] real_in_subset=3
+  Ground      : 47.63%
+  Vegetation  : 28.60%
+  Road        : 17.12%
+  Vehicle     :  6.42%
+  Building    : 45.15%
+  Clutter     :  1.09%
+  Ground      : 26.07%
+  Vegetation  : 25.75%
+  Road        :  0.01%
+  Vehicle     :  0.01%
+  Building    :  2.10%
+  Clutter     :  0.00%
+[E03] [1196.8s | avg1196.8s | eta~1236.7m | lr=1.00e-04] tr_loss=2.1255 tr_acc=54.08% | val_loss=8.9863 val_acc=30.56% | val/miou=8.99% | files[50:65] real_in_subset=5
+  Ground      : 49.17%
+  Vegetation  : 38.70%
+  Road        : 17.02%
+  Vehicle     :  7.18%
+  Building    : 41.87%
+  Clutter     :  0.57%
+  Ground      : 16.82%
+  Vegetation  : 23.77%
+  Road        :  0.00%
+  Vehicle     :  0.00%
+  Building    :  1.18%
+  Clutter     :  0.09%
+[E04] [1242.5s | avg1208.2s | eta~1228.4m | lr=9.99e-05] tr_loss=1.4773 tr_acc=56.91% | val_loss=6.2611 val_acc=26.16% | val/miou=6.98% | files[6:21] real_in_subset=4
+  Ground      : 55.25%
+  Vegetation  : 34.90%
+  Road        : 14.99%
+  Vehicle     :  6.32%
+  Building    : 46.25%
+  Clutter     :  0.57%

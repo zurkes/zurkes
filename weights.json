@@ -1,0 +1,4 @@
+{
+  "order": ["Ground", "Vegetation", "Road", "Vehicle", "Building", "Clutter"],
+  "weights_norm": [2.0, 1.0, 1.5, 5.0, 1.0, 10.0]
+}

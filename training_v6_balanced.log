@@ -1,0 +1,21 @@
+[INFO] Train files: total=69 (syn=54 + real*15=15) | unique=55 | Val files: 5 | Voxel=0.1 m
+  Ground      : 31.08%
+  Vegetation  : 20.73%
+  Road        :  8.90%
+  Vehicle     :  2.53%
+  Building    : 18.00%
+  Clutter     :  0.54%
+  Ground      : 16.91%
+  Vegetation  : 25.61%
+  Road        :  0.46%
+  Vehicle     :  1.73%
+  Building    : 11.21%
+  Clutter     :  1.04%
+[E01] [1087.1s | avg1087.1s | eta~706.6m | lr=5.00e-05] tr_loss=15.2452 tr_acc=35.61% | val_loss=11.9439 val_acc=30.04% | val/miou=9.49% | files[0:15] real_in_subset=2
+[CKPT] saved: /home/erdem/stpls3d-lite/checkpoints/randla_like_e01_miou9.49.pt
+  Ground      : 39.61%
+  Vegetation  : 24.93%
+  Road        : 14.47%
+  Vehicle     :  3.99%
+  Building    : 31.06%
+  Clutter     :  0.47%

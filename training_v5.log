@@ -1,0 +1,80 @@
+[INFO] Train files: total=90 (syn=60 + real*15=30) | unique=62 | Val files: 5 | Voxel=0.1 m
+  Ground      : 30.77%
+  Vegetation  : 14.63%
+  Road        :  9.60%
+  Vehicle     :  2.65%
+  Building    : 21.90%
+  Clutter     :  1.32%
+  Ground      : 29.68%
+  Vegetation  : 57.25%
+  Road        :  0.01%
+  Vehicle     :  0.00%
+  Building    :  3.25%
+  Clutter     :  0.00%
+[E01] [1348.8s | avg1348.8s | eta~876.7m | lr=5.00e-05] tr_loss=18.0395 tr_acc=34.28% | val_loss=2.7574 val_acc=59.49% | val/miou=15.03% | files[0:15] real_in_subset=4
+[CKPT] saved: /home/erdem/stpls3d-lite/checkpoints/randla_like_e01_miou15.03.pt
+  Ground      : 33.51%
+  Vegetation  : 17.43%
+  Road        : 15.30%
+  Vehicle     :  5.00%
+  Building    : 34.68%
+  Clutter     :  2.01%
+  Ground      : 14.23%
+  Vegetation  : 52.80%
+  Road        :  3.15%
+  Vehicle     :  0.26%
+  Building    :  7.23%
+  Clutter     :  0.23%
+[E02] [1462.2s | avg1405.5s | eta~890.1m | lr=1.00e-04] tr_loss=5.9215 tr_acc=41.02% | val_loss=2.5227 val_acc=52.45% | val/miou=12.98% | files[17:32] real_in_subset=8
+  Ground      : 44.06%
+  Vegetation  : 35.19%
+  Road        : 13.18%
+  Vehicle     :  3.81%
+  Building    : 34.94%
+  Clutter     :  0.65%
+  Ground      : 20.37%
+  Vegetation  : 47.48%
+  Road        :  0.85%
+  Vehicle     :  0.04%
+  Building    :  2.23%
+  Clutter     :  0.01%
+[E03] [1224.1s | avg1345.0s | eta~829.4m | lr=1.00e-04] tr_loss=2.1580 tr_acc=51.36% | val_loss=3.9951 val_acc=49.68% | val/miou=11.83% | files[34:49] real_in_subset=2
+  Ground      : 45.30%
+  Vegetation  : 35.53%
+  Road        : 20.35%
+  Vehicle     :  8.16%
+  Building    : 38.76%
+  Clutter     :  3.70%
+  Ground      :  8.24%
+  Vegetation  : 60.81%
+  Road        :  0.00%
+  Vehicle     :  0.00%
+  Building    :  0.00%
+  Clutter     :  0.00%
+[E04] [1465.5s | avg1375.2s | eta~825.1m | lr=9.98e-05] tr_loss=1.7760 tr_acc=52.54% | val_loss=4.2013 val_acc=61.31% | val/miou=11.51% | files[51:66] real_in_subset=7
+  Ground      : 53.11%
+  Vegetation  : 31.31%
+  Road        : 19.43%
+  Vehicle     :  0.78%
+  Building    : 38.03%
+  Clutter     :  3.83%
+  Ground      :  2.09%
+  Vegetation  : 48.75%
+  Road        :  2.28%
+  Vehicle     :  0.59%
+  Building    :  6.16%
+  Clutter     :  1.04%
+[E05] [1474.0s | avg1394.9s | eta~813.7m | lr=9.93e-05] tr_loss=1.4228 tr_acc=54.40% | val_loss=2.6411 val_acc=41.16% | val/miou=10.15% | files[68:83] real_in_subset=5
+  Ground      : 58.41%
+  Vegetation  : 30.78%
+  Road        : 18.22%
+  Vehicle     :  5.50%
+  Building    : 45.17%
+  Clutter     :  3.55%
+  Ground      : 11.50%
+  Vegetation  : 58.59%
+  Road        :  0.00%
+  Vehicle     :  0.01%
+  Building    :  2.57%
+  Clutter     :  0.00%
+[E06] [1310.9s | avg1380.9s | eta~782.5m | lr=9.85e-05] tr_loss=1.1131 tr_acc=60.41% | val_loss=2.0282 val_acc=59.58% | val/miou=12.11% | files[85:100] real_in_subset=4

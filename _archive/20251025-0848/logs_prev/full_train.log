@@ -1,0 +1,50 @@
+[INFO] Train: 37,928,104 | Val: 6,324,691
+[E01] tr_loss=1.3069 tr_acc=28.73% | val_loss=3.2085 val_acc=32.82%
+[CKPT] saved: /home/erdem/stpls3d-lite/checkpoints/tinymlp_e01_acc32.82.pt
+[E02] tr_loss=0.9681 tr_acc=44.56% | val_loss=5.7941 val_acc=36.74%
+[CKPT] saved: /home/erdem/stpls3d-lite/checkpoints/tinymlp_e02_acc36.74.pt
+[E03] tr_loss=0.8355 tr_acc=56.41% | val_loss=9.1626 val_acc=36.87%
+[CKPT] saved: /home/erdem/stpls3d-lite/checkpoints/tinymlp_e03_acc36.87.pt
+[E04] tr_loss=0.7361 tr_acc=62.52% | val_loss=11.5336 val_acc=36.86%
+[E05] tr_loss=0.6874 tr_acc=65.99% | val_loss=13.2144 val_acc=36.83%
+[E06] tr_loss=0.6502 tr_acc=68.23% | val_loss=14.5243 val_acc=36.81%
+[E07] tr_loss=0.6169 tr_acc=70.05% | val_loss=15.6434 val_acc=36.86%
+[E08] tr_loss=0.5849 tr_acc=71.87% | val_loss=16.7341 val_acc=36.85%
+[E09] tr_loss=0.5553 tr_acc=73.60% | val_loss=17.8794 val_acc=36.84%
+[E10] tr_loss=0.5268 tr_acc=75.21% | val_loss=19.1026 val_acc=36.85%
+[E11] tr_loss=0.5013 tr_acc=76.58% | val_loss=20.3877 val_acc=36.85%
+[E12] tr_loss=0.4787 tr_acc=77.72% | val_loss=21.5919 val_acc=36.83%
+[E13] tr_loss=0.4586 tr_acc=78.74% | val_loss=22.9031 val_acc=36.80%
+[E14] tr_loss=0.4417 tr_acc=79.65% | val_loss=24.2027 val_acc=36.81%
+[E15] tr_loss=0.4270 tr_acc=80.45% | val_loss=25.4706 val_acc=36.81%
+[E16] tr_loss=0.4143 tr_acc=81.15% | val_loss=26.6531 val_acc=36.81%
+[E17] tr_loss=0.4035 tr_acc=81.73% | val_loss=27.8047 val_acc=36.82%
+[E18] tr_loss=0.3940 tr_acc=82.23% | val_loss=28.9960 val_acc=36.83%
+[E19] tr_loss=0.3860 tr_acc=82.63% | val_loss=30.2727 val_acc=36.84%
+[E20] tr_loss=0.3784 tr_acc=83.05% | val_loss=31.2309 val_acc=36.83%
+[E21] tr_loss=0.3724 tr_acc=83.39% | val_loss=32.2442 val_acc=36.84%
+[E22] tr_loss=0.3672 tr_acc=83.68% | val_loss=33.2082 val_acc=36.84%
+[E23] tr_loss=0.3613 tr_acc=83.99% | val_loss=34.1975 val_acc=36.85%
+[E24] tr_loss=0.3569 tr_acc=84.25% | val_loss=35.1744 val_acc=36.85%
+[E25] tr_loss=0.3524 tr_acc=84.50% | val_loss=36.1461 val_acc=36.88%
+[CKPT] saved: /home/erdem/stpls3d-lite/checkpoints/tinymlp_e25_acc36.88.pt
+[E26] tr_loss=0.3482 tr_acc=84.73% | val_loss=37.0484 val_acc=36.90%
+[CKPT] saved: /home/erdem/stpls3d-lite/checkpoints/tinymlp_e26_acc36.90.pt
+[E27] tr_loss=0.3444 tr_acc=84.94% | val_loss=37.8247 val_acc=36.91%
+[CKPT] saved: /home/erdem/stpls3d-lite/checkpoints/tinymlp_e27_acc36.91.pt
+[E28] tr_loss=0.3405 tr_acc=85.14% | val_loss=38.6573 val_acc=36.90%
+[E29] tr_loss=0.3372 tr_acc=85.32% | val_loss=39.4357 val_acc=36.88%
+[E30] tr_loss=0.3332 tr_acc=85.52% | val_loss=40.4611 val_acc=36.90%
+[E31] tr_loss=0.3304 tr_acc=85.67% | val_loss=41.1243 val_acc=36.92%
+[CKPT] saved: /home/erdem/stpls3d-lite/checkpoints/tinymlp_e31_acc36.92.pt
+[E32] tr_loss=0.3274 tr_acc=85.82% | val_loss=41.9561 val_acc=36.92%
+[E33] tr_loss=0.3247 tr_acc=85.97% | val_loss=42.4390 val_acc=36.90%
+[E34] tr_loss=0.3224 tr_acc=86.09% | val_loss=43.2489 val_acc=36.93%
+[CKPT] saved: /home/erdem/stpls3d-lite/checkpoints/tinymlp_e34_acc36.93.pt
+[E35] tr_loss=0.3195 tr_acc=86.23% | val_loss=43.7787 val_acc=36.92%
+[E36] tr_loss=0.3172 tr_acc=86.36% | val_loss=44.4527 val_acc=36.93%
+[E37] tr_loss=0.3149 tr_acc=86.47% | val_loss=45.1213 val_acc=36.92%
+[E38] tr_loss=0.3126 tr_acc=86.61% | val_loss=45.7227 val_acc=36.92%
+[E39] tr_loss=0.3099 tr_acc=86.75% | val_loss=46.2269 val_acc=36.92%
+[E40] tr_loss=0.3084 tr_acc=86.82% | val_loss=46.7515 val_acc=36.92%
+[DONE] best_val_acc=36.93%

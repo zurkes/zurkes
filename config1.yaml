@@ -1,0 +1,77 @@
+project:
+  name: stpls3d-lite
+  seed: 42
+
+paths:
+  root: /home/erdem/stpls3d-lite
+  data:
+    train: data/train
+    val: data/val
+    test: data/test
+    infer: data/infer
+    out: data/out
+  checkpoints: checkpoints
+  logs: logs
+
+dataset:
+  format: ply
+  fields:
+    xyz: [x, y, z]
+    rgb: [red, green, blue]
+    label: label
+  tiling:
+    tile_size_m: 50
+    overlap_m: 5
+  voxel:
+    size_m: 0.12
+    mode: center
+  preprocess:
+    mean_center: true
+    normalize_rgb: true
+
+neighbors:
+  type: knn
+  k: 32
+  radius_m: 0.20
+  max_neighbors: 128
+
+model:
+  name: randla_like
+  encoder: lite
+  decoder: lite
+  amp: true
+  dropout: 0.25
+
+training:
+  epochs: 40
+  batch_size_tiles: 1
+  grad_accum_steps: 2
+  optimizer: adam
+  lr: 0.0003
+  weight_decay: 0.0001
+  scheduler: cosine
+  class_weights: custom
+
+validation:
+  eval_interval_epoch: 1
+  early_stop: 5
+  metrics: [miou, iou_per_class, oa, f1]
+
+stitching:
+  strategy: softmax_mean
+  write_probs: false
+
+inference:
+  pred_field_name: pred_class
+  keep_input_order: true
+  chunk_size: 500000
+
+logging:
+  tensorboard:
+    enabled: true
+  console:
+    level: info
+
+save:
+  best_metric: miou
+  save_last: true

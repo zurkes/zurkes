@@ -1,0 +1,10 @@
+# SADECE veri klasörleri dışlanır
+data/
+datasets/
+
+# Sistem artıkları
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
